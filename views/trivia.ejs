@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <link href ="public/img/favicon.ico" rel="icon">
+
+    <link rel="stylesheet" href="public/css/main.css">
+
+    <script src="https://kit.fontawesome.com/04ce7e6ce3.js" crossorigin="anonymous"></script>
+
+    <title>Trivia</title>
+    <h1 class="header">Disney Trivia</h1>
+
+
+    </head>
+    <body>
+
+        <!-- Navbar -->
+        <div class="navbar">
+            <nav id="navbar" class="navbar">
+                <a href="./trivia">Trivia</a>
+                <a href="./my_resume">My Resume</a>
+                <a href="./my_fun_facts">Fun Facts</a>
+                <a href="./index">Home</a>
+            </nav>
+        </div><br>
+        <br>
+
+        <!-- Disney Trivia -->
+
+        <form id = "trivia" name = "trivia">
+            <br>
+            <p class = "questions">Question 1: What does Hakuna Matata mean?</p>
+            <p>A. No Worries<br>B. Thank You<br>C. Love You<br>D. Welcome</p>
+            <input id = "textbox" type = "text" name = "question1" placeholder="Enter A, B, C, D">
+            
+            <p class = "questions">Question 2: How many fingers does Mickey Mouse have?</p>
+            <p>A. Three<br>B. Six<br>C. Seven<br>D. Four</p>
+            <input id = "textbox" type = "text" name = "question2" placeholder="Enter A, B, C, D">
+            
+            <p class = "questions">Question 3: What was the first Pixar movie?</p>
+            <p>A. WALL-E<br>B. Toy Story<br>C. Cars<br>D. Up</p>
+            <input id = "textbox" type = "text" name = "question3" placeholder="Enter A, B, C, D">
+            
+            <p class = "questions">Question 4: How many dwarfs are their in Snow White?</p>
+            <p>A. Ten<br>B. Six<br>C. Seven<br>D. Eight</p>
+            <input id = "textbox" type = "text" name = "question4" placeholder="Enter A, B, C, D">
+            
+            <p class = "questions">What posionuous fruit did Snow White eat?</p>
+            <p>A. Banana<br>B. Grape<br>C. Apple<br>D. Pears</p>
+            <input id = "textbox" type = "text" name = "question5" placeholder="Enter A, B, C, D">
+            <br><br>
+            <input id = "button" type = "button" value = "Submit" onclick = "check();">
+            <p>&nbsp;</p>
+            </form>
+            <div id = "after_submit">
+            <p id = "number_correct"></p>
+            </div>
+
+       
+
+        <script src="../public/js/trivia.js" defer></script>
+        <br>
+
+         <!-- Footer -->
+
+        <hr>
+        <section class="footer">
+        <footer>
+            &copy; 2021 Humayra Ahmed
+            <br><br>
+            <a href="https://www.linkedin.com/" aria-label="LinkedIn"> 
+                <i class="fab fa-linkedin"></i></a>
+            <a href="https://www.gmail.com/" aria-label="Email"> 
+                <i class="fas fa-envelope-square"></i>
+            <a href="https://www.facebook.com/" aria-label="Facebook"> 
+                <i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.twitter.com/" aria-label="Twitter"> 
+                <i class="fab fa-twitter-square"></i>
+
+            <br>
+        </footer>
+    </section>
+
+    </body>
+</html>
